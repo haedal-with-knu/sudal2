@@ -1,14 +1,14 @@
 {
-  "name": "whereisjellyfish",
+  "name": "meditation",
   "version": "1.0.0",
-  "description": "where is jellyfish?",
+  "description": "Meditation",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zelight/whereisjellyfish.git"
+    "url": "git+https://github.com/haedal-with-knu/sudal2.git"
   },
   "keywords": [
     "sooohh6"
@@ -16,9 +16,9 @@
   "author": "sooohh6",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zelight/whereisjellyfish/issues"
+    "url": "https://github.com/haedal-with-knu/sudal2/issues"
   },
-  "homepage": "https://github.com/zelight/whereisjellyfish#readme",
+  "homepage": "git+https://github.com/haedal-with-knu/sudal2#readme",
   "dependencies": {
     "axios": "^0.18.0",
     "body-parser": "^1.18.2",
