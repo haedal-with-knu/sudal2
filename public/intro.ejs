@@ -4,23 +4,19 @@
     <meta charset="UTF-8">
     <title>Meditation</title>
     <link rel= "stylesheet" type="text/css" href="intro.css">
-    <script>
-      function updateTransition() {
-        var el = document.querySelector("div.circle");
-        if (el) {
-        el.className = "circle1";
-        } else {
-        el = document.querySelector("div.circle1");
-        el.className = "circle";
-        }
-        return el;
-      }
-      var intervalID = window.setInterval(updateTransition, 4000);
-    </script>
   </head>
   <body>
     <div class="circle_box">
-      <div class="circle"></div>
+      <div class="circle" id="clicker">
+      </div>
     </div>
+    <script>
+      document.getElementById('clicker').addEventListener('click',function() {
+            var c = document.getElementsByClassName('circle');
+            for (var i = 0; i < c.length; i++) {
+  	            c[i].classList.add('animate');
+            }
+        })
+    </script>
   </body>
 </html>
