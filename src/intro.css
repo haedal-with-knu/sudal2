@@ -17,12 +17,10 @@ html, body {
     border: 15px solid #00FF79;
     border-radius: 100%;
     transition-property: width, height, margin, border-radius, border, background-color;
-    transition-duration: 4s;
-    transition-delay: 0s;
 }
 
 .animate{
-            animation-duration : 3s;
+            animation-duration : 4s;
             animation-name: change_scale;
             animation-iteration-count: infinite;
             animation-direction: alternate;
